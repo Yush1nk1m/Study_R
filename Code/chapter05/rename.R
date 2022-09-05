@@ -1,0 +1,22 @@
+# 1.
+df_raw <- data.frame(var1 = c(1, 2, 1),
+                     var2 = c(2, 3, 2))
+
+df_raw
+
+# 2.
+install.packages("dplyr")
+library(dplyr)
+
+# 3.
+df_new <- df_raw
+df_new
+
+# 4.
+df_new <- rename(df_new, v2 = var2)
+df_new
+
+# 5.
+df_raw
+
+df_new
